@@ -6,4 +6,4 @@ class Position:
         self.x = 0
         self.y = 0
 
-    def getPosition:
+    #def getPosition:
