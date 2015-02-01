@@ -23,7 +23,7 @@ def calc_velocity(self, position1, position2):
     velocity = 0
 
 def calc_position(self, angle_a, angle_b, angle_c):
-    position = position.Position()
+    position = Position()
 
 
 def run(self):

@@ -1,8 +1,12 @@
 __author__ = 'spier_000'
 
-class Beacon:
-    def __init__(self, x, y, angle, name):
-        self.x = x
-        self.y = y
-        self.angle = angle
+import Position
+
+
+class Beacon(Position):
+    """Beacon is a class that inherits from Position class"""
+    def __init__(self, name):
         self.name = name
+
+    def transmit(self):
+
