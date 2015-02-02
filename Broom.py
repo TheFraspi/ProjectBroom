@@ -4,6 +4,7 @@ import math
 
 init_position = [0, 0]
 
+
 class Position:
     """"This class represent the Position of an object"""
     def __init__(self, position):
@@ -69,6 +70,7 @@ class Broom(Position):
 
     def run(self):
         pass
+
 
 class Beacon(Position):
     def __init__(self, position, signals):
