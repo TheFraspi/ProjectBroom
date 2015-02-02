@@ -2,6 +2,9 @@
   <dictionary name="spier_000">
     <words>
       <w>borstel</w>
+      <w>kmod</w>
+      <w>xmod</w>
+      <w>ymod</w>
     </words>
   </dictionary>
 </component>
